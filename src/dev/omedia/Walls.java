@@ -1,14 +1,14 @@
 package dev.omedia;
 
-public class Wall {
+public class Walls {
     private double width;
     private double height;
 
-    public Wall(){
+    public Walls(){
 
     }
 
-    public Wall(double width, double height){
+    public Walls(double width, double height){
         if(width < 0){
             this.width = 0;
         }else {
